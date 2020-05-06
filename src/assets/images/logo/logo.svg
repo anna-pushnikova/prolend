@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="61px" viewBox="0 0 59 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="66.1335316%" y1="67.3366587%" x2="17.998352%" y2="22.473456%" id="linearGradient-1">
+            <stop stop-color="#F74B54" offset="0%"></stop>
+            <stop stop-color="#C86DD7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Artboard" transform="translate(-50.000000, -54.000000)" stroke="url(#linearGradient-1)" stroke-width="3">
+            <path d="M88.7573416,65.6732612 L107,67 L75,101 L73.9929235,99.3361345 L68,113 L52,63 L93,56 L88.7573416,65.6732612 Z M88.7573416,65.6732612 L52,63 L73.9929235,99.3361345 L88.7573416,65.6732612 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>
