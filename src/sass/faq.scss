@@ -1,0 +1,30 @@
+.faq {
+  padding: 100px 0;
+  background-color: #fafafa;
+}
+
+.faq__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq__title {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 16px 0;
+
+}
+
+.faq__body {
+  margin: 16px 0;
+  color: #565656;
+}
+
+.faq__link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.faq__link:hover {
+  color: inherit;
+}

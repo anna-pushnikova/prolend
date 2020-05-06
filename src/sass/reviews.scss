@@ -1,0 +1,115 @@
+.reviews {
+  background-color: #fafafa;
+  padding: 100px 0;
+}
+
+.reviews__heading {
+  margin-bottom: 80px;
+  font-weight: 500;
+
+  i {
+    color: #F74B54;
+    margin-right: 5px;
+  }
+}
+
+.red-text {
+  color: #F74B54;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.reviews__title {
+  @extend .section__title;
+}
+
+.reviews__title:after {
+  left: 0;
+  transform: translateX(0);
+}
+
+.reviews__text {
+  @extend .section__text
+}
+
+.review__item {
+  box-shadow: 0 0.3rem 0.8rem rgba(45, 49, 54, 0.1);
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 3px;
+  
+  display: flex;
+  flex-direction: column;
+
+  background-color: #fff;
+
+  position: relative;
+
+  transition: box-shadow .2s linear;
+}
+
+.review__item:hover {
+  box-shadow: 0 1rem 3rem rgba(45, 49, 54, 0.2);
+}
+
+.review__body {
+  padding: 24px;
+}
+
+.review__icon {
+  color: #ffc107;
+}
+
+.review__item:after { 
+  position: absolute;
+  content: '';
+  top: 2%;
+  right: 5%;
+  background-image: url('/images/icons/quote.png');
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+
+}
+
+.review__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.review__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #565656;
+}
+
+.review__image img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.review__author {
+  background-color: #fafafa;
+  padding: 24px;
+
+  display: flex;
+  align-items: center;
+}
+
+.review__info {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.review__name {
+  font-size: 16px;
+  color: #F74B54;
+  line-height: 1;
+}
+
+.review__position {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+

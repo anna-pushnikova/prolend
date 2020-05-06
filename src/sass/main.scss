@@ -1,0 +1,45 @@
+// Import Owl-carousel
+$owl-image-path: "~owl.carousel/src/img/";
+@import '~owl.carousel/src/scss/owl.carousel.scss';
+
+// Import font-awesome
+$fa-font-path: '/fonts/@fortawesome';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+
+// Import bootstrap
+@import '~bootstrap/scss/bootstrap-grid.scss';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/utilities';
+@import '~bootstrap/scss/media';
+@import '~bootstrap/scss/tables';
+@import '../../node_modules/bootstrap/scss/forms';
+@import '../../node_modules/bootstrap/scss/dropdown';
+@import '~bootstrap/scss/reboot';
+
+// Import tippy
+@import '~tippy.js/dist/tippy.css';
+@import '~tippy.js/themes/light-border.css';
+@import '~tippy.js/animations/shift-away-subtle.css';
+
+// Import sass files
+@import './variables.scss';
+@import './header.scss';
+@import './base.scss';
+@import './nav.scss';
+@import './intro.scss';
+@import './features.scss';
+@import './service.scss';
+@import './cta.scss';
+@import './products.scss';
+@import './reviews.scss';
+@import './download.scss';
+@import './faq.scss';
+@import './subscribe.scss';
+@import './contact.scss';
+@import './footer.scss';
+@import './media.scss';
